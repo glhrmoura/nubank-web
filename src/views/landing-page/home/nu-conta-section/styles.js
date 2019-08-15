@@ -5,6 +5,7 @@ export const NuContaContainer = styled.section`
   justify-content: center;
   align-items: center;
   padding: .1px;
+  min-height: calc(100vh - 80px);
   background-color: #F5F5F5;
 `;
 
@@ -12,7 +13,6 @@ export const NuContaContent = styled.div`
   display: grid;
   grid-template-columns: 64px repeat(10, 1fr) 64px;
   grid-template-rows: 64px 1fr 64px;
-  min-height: 100vh;
   width: 100%;
   max-width: 1328px;
   justify-content: center;
@@ -24,7 +24,7 @@ export const NuContaContent = styled.div`
   }
 `;
 
-export const TitleContent = styled.div`
+export const TitleContainer = styled.div`
   grid-area: 2 / 2 / 3 / 7;
 
   @media (max-width: 767px) {
@@ -60,5 +60,12 @@ export const NuContaPicture = styled.picture`
 `;
 
 export const NuContaImage = styled.img`
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  
+  @media (min-width: 768px) {
+    max-height: 580.25px;
+    max-width: 659px;
+    object-fit: scale-down;
+  }
 `;

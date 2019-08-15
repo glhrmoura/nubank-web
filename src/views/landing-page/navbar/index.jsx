@@ -1,10 +1,8 @@
 import { connect } from 'react-redux';
 import React, { useState } from 'react';
 
-// Components
 import MenuMobile from './menu-mobile';
 
-// CSS
 import {
   NubankButton,
 } from '../../styles';
@@ -40,15 +38,18 @@ const Navbar = ({ isMobile }) => {
         </LinkList>
       </LinksContainer>
       <RightLinks>
-        <NubankButton to="/" className="outline">Login</NubankButton>
+        <NubankButton to="/" className="outline">
+          Login
+        </NubankButton>
         <NubankButton>Quero ser Nubank</NubankButton>
       </RightLinks>
       <ToggleMenu onClick={() => setMenuVisible(!menuVisible)}>
-        <img src={require('../../../assets/icons/bars.svg')} alt="Ícone menu hambúrguer" />
+        <img
+          src={require('../../../assets/icons/bars.svg')}
+          alt="Ícone menu hambúrguer"
+        />
       </ToggleMenu>
-      {isMobile && (
-        <MenuMobile className={menuVisible && 'menu-visible'} />
-      )}
+      {isMobile && <MenuMobile className={menuVisible && 'menu-visible'} />}
     </NavbarContainer>
   )
 };

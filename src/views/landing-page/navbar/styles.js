@@ -8,7 +8,7 @@ export const NavbarContainer = styled.nav`
   top: 0px;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 64px;
   padding-left: 32px;
   background-color: #FFF;
   width: calc(100% - 32px);
@@ -20,8 +20,8 @@ export const NavbarContainer = styled.nav`
     width: calc(100% - 48px);
   }
 
-  @media (max-width: 921px) {
-    height: 64px;
+  @media (min-width: 1024px) {
+    height: 80px;
   }
 `;
 

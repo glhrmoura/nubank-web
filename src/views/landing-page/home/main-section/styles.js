@@ -8,16 +8,7 @@ export const MainSectionContainer = styled.section`
   justify-content: center;
 `;
 
-export const ButtonFixed = styled(NubankButton)`
-  @media (max-width: 767px) {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-  }
-`;
-
-export const Article = styled.article`
+export const MainSectionContent = styled.article`
   display: grid;
   grid-template-columns: 64px repeat(14, 1fr) 64px;
   grid-template-rows: 64px 134px auto 64px 64px;
@@ -101,6 +92,11 @@ export const Description = styled.p`
   max-width: 300px;
 `;
 
-
-
-
+export const ButtonFixed = styled(NubankButton)`
+  @media (max-width: 767px) {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+`;

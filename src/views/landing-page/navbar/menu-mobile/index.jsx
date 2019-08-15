@@ -5,14 +5,14 @@ import {
 } from '../../../styles';
 
 import {
-  MenuContainer,
+  MenuMobileContainer,
   LinkList,
   LinkItem,
   ButtonContainer
 } from './styles';
 
 export default props => (
-  <MenuContainer {...props}>
+  <MenuMobileContainer {...props}>
     <LinkList>
       <LinkItem exact to="/">Início</LinkItem>
       <LinkItem to="/1">NuConta</LinkItem>
@@ -23,7 +23,9 @@ export default props => (
       <LinkItem to="/6">Carreiras</LinkItem>
     </LinkList>
     <ButtonContainer>
-      <NubankButton to="/" className="block">Login</NubankButton>
+      <NubankButton to="/" className="block">
+        Login
+      </NubankButton>
     </ButtonContainer>
-  </MenuContainer>
+  </MenuMobileContainer>
 );

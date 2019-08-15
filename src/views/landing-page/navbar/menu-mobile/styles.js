@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from '../../../styles';
 
-export const MenuContainer = styled.div`
+export const MenuMobileContainer = styled.div`
   position: fixed;
   top: 60px;
   left: 0px;
