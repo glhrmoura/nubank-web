@@ -21,7 +21,7 @@ export default () => (
         <Description>
           Um programa de pontos justo e com recompensas que você vai querer.
         </Description>
-        <RewardsBorderLink>
+        <RewardsBorderLink to="/">
           Saiba mais
         </RewardsBorderLink>
       </TitleContainer>
