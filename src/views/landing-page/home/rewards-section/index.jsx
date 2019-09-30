@@ -1,4 +1,5 @@
 import React from 'react';
+import PictureSources from '../../../components/picture-sources';
 
 import {
   RewardsContainer,
@@ -26,25 +27,29 @@ export default () => (
         </RewardsBorderLink>
       </TitleContainer>
       <RewardsPicture>
-        <source
-          media="(min-width: 1280px)"
-          srcSet={require('../../../../assets/images/rewards-home-card-3x.png')}
-        />
-        <source
-          media="(min-width: 1024px)"
-          srcSet={require('../../../../assets/images/rewards-home-card-2x.png')}
-        />
-        <source
-          media="(min-width: 768px)"
-          srcSet={require('../../../../assets/images/rewards-home-card-1x.png')}
-        />
-        <source
-          media="(min-width: 480px)"
-          srcSet={require('../../../../assets/images/rewards-home-card-0.75x.png')}
-        />
-        <source
-          media="(min-width: 0px)"
-          srcSet={require('../../../../assets/images/rewards-home-card-0.5x.png')}
+        <PictureSources
+          sources={[
+            {
+              media: '(min-width: 1280px)',
+              src: require('../../../../assets/images/rewards-home-card-3x.png'),
+            },
+            {
+              media: '(min-width: 1024px)',
+              src: require('../../../../assets/images/rewards-home-card-2x.png'),
+            },
+            {
+              media: '(min-width: 768px)',
+              src: require('../../../../assets/images/rewards-home-card-1x.png'),
+            },
+            {
+              media: '(min-width: 480px)',
+              src: require('../../../../assets/images/rewards-home-card-0.75x.png'),
+            },
+            {
+              media: '(min-width: 0px)',
+              src: require('../../../../assets/images/rewards-home-card-0.5x.png'),
+            }
+          ]}
         />
         <RewardsImage
           src={require('../../../../assets/images/rewards-home-card-1x.png')}

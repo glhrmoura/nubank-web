@@ -1,4 +1,5 @@
 import React from 'react';
+import PictureSources from '../../../components/picture-sources';
 
 import {
   BorderLink,
@@ -28,25 +29,29 @@ export default () => (
         </BorderLink>
       </TitleContainer>
       <NuContaPicture>
-        <source
-          media="(min-width: 1280px)"
-          srcSet={require('../../../../assets/images/nuconta-inclined-device-3x.png')}
-        />
-        <source
-          media="(min-width: 1024px)"
-          srcSet={require('../../../../assets/images/nuconta-inclined-device-2x.png')}
-        />
-        <source
-          media="(min-width: 768px)"
-          srcSet={require('../../../../assets/images/nuconta-inclined-device-1x.png')}
-        />
-        <source
-          media="(min-width: 480px)"
-          srcSet={require('../../../../assets/images/nuconta-inclined-device-0.75x.png')}
-        />
-        <source
-          media="(min-width: 0px)"
-          srcSet={require('../../../../assets/images/nuconta-inclined-device-0.5x.png')}
+        <PictureSources
+          sources={[
+            {
+              media: '(min-width: 1280px)',
+              src: require('../../../../assets/images/nuconta-inclined-device-3x.png'),
+            },
+            {
+              media: '(min-width: 1024px)',
+              src: require('../../../../assets/images/nuconta-inclined-device-2x.png'),
+            },
+            {
+              media: '(min-width: 768px)',
+              src: require('../../../../assets/images/nuconta-inclined-device-1x.png'),
+            },
+            {
+              media: '(min-width: 480px)',
+              src: require('../../../../assets/images/nuconta-inclined-device-0.75x.png'),
+            },
+            {
+              media: '(min-width: 0px)',
+              src: require('../../../../assets/images/nuconta-inclined-device-0.5x.png'),
+            }
+          ]}
         />
         <NuContaImage
           src={require('../../../../assets/images/nuconta-inclined-device-1x.png')}
