@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 import { Link as RouterLink, NavLink as RouterNavLink } from 'react-router-dom';
 
+export const NubankInnerLayout = styled.main`
+  margin-top: 64px;
+
+  @media (min-width: 1024px) {
+    margin-top: 80px;
+  }
+`;
+
 export const BorderLink = styled(RouterLink)`
   position: relative;
   margin: 0px;

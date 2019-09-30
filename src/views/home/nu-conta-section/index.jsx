@@ -1,9 +1,9 @@
 import React from 'react';
-import PictureSources from '../../../components/picture-sources';
+import PictureSources from '../../components/picture-sources';
 
 import {
   BorderLink,
-} from '../../../styles';
+} from '../../styles';
 
 import {
   NuContaContainer,
@@ -33,28 +33,28 @@ export default () => (
           sources={[
             {
               media: '(min-width: 1280px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-3x.png'),
+              src: require('../../../assets/images/nuconta-inclined-device-3x.png'),
             },
             {
               media: '(min-width: 1024px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-2x.png'),
+              src: require('../../../assets/images/nuconta-inclined-device-2x.png'),
             },
             {
               media: '(min-width: 768px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-1x.png'),
+              src: require('../../../assets/images/nuconta-inclined-device-1x.png'),
             },
             {
               media: '(min-width: 480px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-0.75x.png'),
+              src: require('../../../assets/images/nuconta-inclined-device-0.75x.png'),
             },
             {
               media: '(min-width: 0px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-0.5x.png'),
+              src: require('../../../assets/images/nuconta-inclined-device-0.5x.png'),
             }
           ]}
         />
         <NuContaImage
-          src={require('../../../../assets/images/nuconta-inclined-device-1x.png')}
+          src={require('../../../assets/images/nuconta-inclined-device-1x.png')}
           alt="Celular inclinado com o aplicativo do Nubank aberto na seção da NuConta"
         />
       </NuContaPicture>

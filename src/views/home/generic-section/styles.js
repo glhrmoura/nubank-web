@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import {
   BorderLink,
-} from '../../../styles';
+} from '../../styles';
 
 export const CustomBorderLink = styled(BorderLink)`
   color: #fff;

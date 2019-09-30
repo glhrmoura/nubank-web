@@ -1,9 +1,20 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import LandingPage from './landing-page';
+import {
+  NubankInnerLayout,
+} from './styles';
+
+import Navbar from './components/navbar';
+import Home from './home';
 
 export default () => (
-  <main>
-    <LandingPage />
-  </main>
+  <BrowserRouter>
+    <Navbar />
+    <NubankInnerLayout>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </NubankInnerLayout>
+  </BrowserRouter>
 );

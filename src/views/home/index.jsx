@@ -16,13 +16,13 @@ export default () => (
       link="/"
       linkLabel="Saiba mais"
       title="Desafiando o sistema para redefinir a relação das pessoas com o dinheiro"
-      backgroundUrl={require('../../../assets/images/challenge-system-large.jpg')}
+      backgroundUrl={require('../../assets/images/challenge-system-large.jpg')}
     />
     <GenericSection
       link="/"
       linkLabel="Tire dúvidas, compartilhe ideias e faça parte."
       title="NuCommunity A comunidade oficial do Nubank."
-      backgroundUrl={require('../../../assets/images/nucommunity.jpg')}
+      backgroundUrl={require('../../assets/images/nucommunity.jpg')}
     />
   </div>
 );
