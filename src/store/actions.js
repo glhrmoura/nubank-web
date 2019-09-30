@@ -1,1 +1,0 @@
-export const CHANGE_IS_MOBILE = 'CHANGE_IS_MOBILE';

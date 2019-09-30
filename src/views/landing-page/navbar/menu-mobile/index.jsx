@@ -11,8 +11,8 @@ import {
   ButtonContainer
 } from './styles';
 
-export default props => (
-  <MenuMobileContainer {...props}>
+export default ({ visible }) => (
+  <MenuMobileContainer className={visible && 'menu-visible'}>
     <LinkList>
       <LinkItem exact to="/">Início</LinkItem>
       <LinkItem to="/1">NuConta</LinkItem>

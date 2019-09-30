@@ -22,6 +22,10 @@ export const MenuMobileContainer = styled.div`
   &.menu-visible {
     transform: translateY(0px);
   }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ButtonContainer = styled.div`

@@ -1,6 +1,4 @@
-import { connect } from 'react-redux';
 import React, { useState } from 'react';
-
 import MenuMobile from './menu-mobile';
 
 import {
@@ -17,7 +15,7 @@ import {
   RightLinks,
 } from './styles';
 
-const Navbar = ({ isMobile }) => {
+const Navbar = props => {
   const [ menuVisible, setMenuVisible ] = useState(false);
 
   return (
@@ -49,15 +47,9 @@ const Navbar = ({ isMobile }) => {
           alt="Ícone menu hambúrguer"
         />
       </ToggleMenu>
-      {isMobile && <MenuMobile className={menuVisible && 'menu-visible'} />}
+      <MenuMobile visible={menuVisible} />
     </NavbarContainer>
   )
 };
 
-const mapStateToProps = state => {
-  return {
-    isMobile: state.isMobile,
-  }
-}
-
-export default connect(mapStateToProps, null)(Navbar);
+export default Navbar;
