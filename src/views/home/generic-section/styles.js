@@ -13,13 +13,14 @@ export const CustomBorderLink = styled(BorderLink)`
 
 export const GenericSectionContainer = styled.section`
   height: calc(100vh - 80px);
-  background-image: ${props => `url(${props.backgroundUrl})`};
+  background-image: ${props => `url(${props.backgroundUrl.mobile})`};
   background-size: cover;
-  background-position: center center;
+  background-position: ${({ backgroundPosition }) => backgroundPosition || 'center center'};
   height: calc(100vh - (64px + 60px));
 
   @media (min-width: 767px) {
     height: 520px;
+    background-image: ${props => `url(${props.backgroundUrl.desktop})`};
   }
 
   @media (min-width: 1024px) {
@@ -37,6 +38,7 @@ export const GenericSectionContent = styled.article`
   box-sizing: border-box;
   
   @media (min-width: 768px) {
+    width: ${({ contentSize }) => contentSize ? `${contentSize}px` : '650px'}
     padding: 64px;
   }
 `;
@@ -49,7 +51,6 @@ export const Title = styled.h2`
   margin-bottom: 32px;
   
   @media (min-width: 768px) {
-    max-width: 480px;
     font-size: 48px;
   }
 `;
