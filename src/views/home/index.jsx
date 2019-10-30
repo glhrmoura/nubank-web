@@ -14,15 +14,33 @@ export default () => (
     <RewardsSection />
     <GenericSection
       link="/"
-      linkLabel="Saiba mais"
-      title="Desafiando o sistema para redefinir a relação das pessoas com o dinheiro"
-      backgroundUrl={require('../../assets/images/challenge-system-large.jpg')}
+      linkLabel="É nisso que acreditamos."
+      title="Reinventando a relação das pessoas com o dinheiro"
+      backgroundUrl={{
+        desktop: require('../../assets/images/challenge-system-large.jpg'),
+        mobile: require('../../assets/images/challenge-system-large.jpg'),
+      }}
     />
     <GenericSection
       link="/"
       linkLabel="Tire dúvidas, compartilhe ideias e faça parte."
-      title="NuCommunity A comunidade oficial do Nubank."
-      backgroundUrl={require('../../assets/images/nucommunity.jpg')}
+      contentSize={650}
+      title={['NuCommunity', 'A comunidade oficial do Nubank.']}
+      backgroundUrl={{
+        desktop: require('../../assets/images/nucommunity-3x.jpg'),
+        mobile: require('../../assets/images/nucommunity-0.5x.jpg'),
+      }}
+    />
+    <GenericSection
+      link="/"
+      linkLabel="Conheça o Fala, Nubank"
+      title="Um blog para você repensar o seu dinheiro."
+      contentSize={500}
+      backgroundPosition="center top"
+      backgroundUrl={{
+        desktop: require('../../assets/images/holding-device-smile-3x.jpg'),
+        mobile: require('../../assets/images/holding-device-smile-0.5x.jpg'),
+      }}
     />
   </div>
 );
