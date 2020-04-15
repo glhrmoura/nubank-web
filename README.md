@@ -1,3 +1,14 @@
 # :art: NuBank Website
 
-Recriando o Layout do Nubank Website utilizando ReactJS.
+Recriação do layout do website do Nubank
+
+## Stack
+
+- ReacjJS
+- React Router
+- Sass
+- Styled Components
+
+## Deploy
+
+[Nubank Website](https://mouraggui.github.io/nubank-website)
