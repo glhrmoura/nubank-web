@@ -13,7 +13,7 @@ export default () => (
     <Navbar />
     <NubankInnerLayout>
       <Switch>
-        <Route exact path="/nubank-website" component={Home} />
+        <Route path="/nubank-website" component={Home} />
       </Switch>
     </NubankInnerLayout>
   </BrowserRouter>

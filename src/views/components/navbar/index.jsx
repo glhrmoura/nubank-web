@@ -27,12 +27,12 @@ const Navbar = props => {
       <LinksContainer>
         <LinkList>
           <LinkItem exact to="/nubank-website">Início</LinkItem>
-          <LinkItem to="/nubank-website">NuConta</LinkItem>
-          <LinkItem to="/nubank-website">Cartão de crédito</LinkItem>
-          <LinkItem to="/nubank-website">Rewards</LinkItem>
-          <LinkItem to="/nubank-website">Empréstimo</LinkItem>
-          <LinkItem to="/nubank-website">Sobre nós</LinkItem>
-          <LinkItem to="/nubank-website">Carreiras</LinkItem>
+          <LinkItem to="/nubank-website/nu-Conta">NuConta</LinkItem>
+          <LinkItem to="/nubank-website/card">Cartão de crédito</LinkItem>
+          <LinkItem to="/nubank-website/rewards">Rewards</LinkItem>
+          <LinkItem to="/nubank-website/loan">Empréstimo</LinkItem>
+          <LinkItem to="/nubank-website/about-us">Sobre nós</LinkItem>
+          <LinkItem to="/nubank-website/careers">Carreiras</LinkItem>
         </LinkList>
       </LinksContainer>
       <RightLinks>
