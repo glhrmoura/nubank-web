@@ -11,4 +11,4 @@ Recriação do layout do website do Nubank
 
 ## Deploy
 
-[Nubank Website](https://mouraggui.github.io/nubank-website)
+[Nubank Website](https://glhrmoura.github.io/nubank-website)
