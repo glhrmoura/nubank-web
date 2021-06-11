@@ -1,10 +1,10 @@
 # :art: NuBank Website
 
-Recriação do layout do website do Nubank
+Clone do website do Nubank (em desenvolvimento)
 
 ## Stack
 
-- ReacjJS
+- React
 - React Router
 - Sass
 - Styled Components
