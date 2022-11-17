@@ -1,4 +1,4 @@
-# :art: NuBank Website
+# 🟣 NuBank Website
 
 Clone do website do Nubank (em desenvolvimento)
 
