@@ -22,6 +22,6 @@ Clone do website do Nubank (em desenvolvimento)
 
 ## License
 
-[MIT](https://github.com/glhrmoura/nubank-website/blob/main/LICENSE)
+[MIT](https://github.com/glhrmoura/nubank-website/blob/master/LICENSE)
 
 Copyright (c) Guilherme Moura
