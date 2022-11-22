@@ -7,7 +7,7 @@
 
 # :bank: NuBank Website
 
-Recriação do layout do Nubank Website (em desenvolvimento)
+Recriação do layout do Nubank Website (em desenvolvimento).
 
 ## Demo
 
