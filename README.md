@@ -1,7 +1,7 @@
 <p align="center">
   <img
     style="object: contain; height: 150px"
-    src="https://raw.githubusercontent.com/glhrmoura/nubank-website/main/src/images/logo.png"
+    src="https://raw.githubusercontent.com/glhrmoura/nubank-website/master/src/images/logo.png"
   >
 </p>
 
