@@ -1,4 +1,4 @@
-# 🟣 NuBank Website
+# :purple_square: NuBank Website
 
 Clone do website do Nubank (em desenvolvimento)
 
