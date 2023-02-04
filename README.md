@@ -5,7 +5,7 @@
   >
 </p>
 
-# :bank: NuBank Website
+# NuBank Website
 
 Recriação do layout do Nubank Website (em desenvolvimento).
 
