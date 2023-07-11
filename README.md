@@ -1,7 +1,7 @@
 <p align="center">
   <img
     style="object: contain; height: 150px"
-    src="https://github.com/glhrmoura/nubank-website/raw/master/src/assets/images/logo.png"
+    src="https://github.com/glhrmoura/nubank-web/raw/master/src/assets/images/logo.png"
   >
 </p>
 
@@ -11,7 +11,7 @@ Recriação visual do website do Nubank, construída utilizando React. Oferece a
 
 ### Demo
 
-[**Nubank - Web**](https://glhrmoura.github.io/nubank-website)
+[**Nubank - Web**](https://glhrmoura.github.io/nubank-web)
 
 ### Tools
 
@@ -22,6 +22,6 @@ Recriação visual do website do Nubank, construída utilizando React. Oferece a
 
 ### License
 
-[MIT](https://github.com/glhrmoura/nubank-website/blob/master/LICENSE)
+[MIT](https://github.com/glhrmoura/nubank-web/blob/master/LICENSE)
 
 Copyright (c) Guilherme Moura
