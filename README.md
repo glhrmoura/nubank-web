@@ -5,13 +5,13 @@
   >
 </p>
 
-## NuBank - Website
+## NuBank - Web
 
 Recriação visual do website do Nubank, construída utilizando React. Oferece aos usuários uma representação da interface do site oficial do Nubank, permitindo que eles experimentem alguns detalhes visuais de interface.
 
 ### Demo
 
-[**Nubank - Website**](https://glhrmoura.github.io/nubank-website)
+[**Nubank - Web**](https://glhrmoura.github.io/nubank-website)
 
 ### Tools
 
