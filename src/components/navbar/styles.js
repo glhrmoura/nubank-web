@@ -9,9 +9,9 @@ export const NavbarContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   height: 56px;
+  width: 100%;
   padding-left: 32px;
   background-color: #FFF;
-  width: calc(100% - 32px);
   box-shadow: rgba(17, 17, 17, 0.1) 0px 1px 1px;
   z-index: 100;
 
@@ -21,7 +21,6 @@ export const NavbarContainer = styled.nav`
 
   @media (max-width: 767px) {
     padding-right: 16px;
-    width: calc(100% - 48px);
   }
 `;
 

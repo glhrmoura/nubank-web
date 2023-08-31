@@ -4,15 +4,15 @@ import { NavLink } from '../../../../theme/global-styles';
 
 export const MenuMobileContainer = styled.div`
   position: fixed;
-  top: 60px;
+  top: 0px;
   left: 0px;
   background-color: #fff;
-  height: calc(100vh - 120px);
-  width: calc(100% - 56px);
+  height: 100%;
+  width: 100%;
   z-index: 10;
   padding: 32px;
   transition: transform 0.3s ease-out;
-  transform: translateY(-110vh);
+  transform: translateY(-110%);
   overflow: auto;
 
   &::-webkit-scrollbar {
@@ -20,7 +20,7 @@ export const MenuMobileContainer = styled.div`
   }
 
   &.menu-visible {
-    transform: translateY(0px);
+    transform: translateY(56px);
   }
 
   @media (min-width: 768px) {

@@ -16,7 +16,7 @@ export const GenericSectionContainer = styled.section`
   background-image: ${props => `url(${props.backgroundUrl.mobile})`};
   background-size: cover;
   background-position: ${({ backgroundPosition }) => backgroundPosition || 'center center'};
-  height: calc(100vh - (64px + 60px));
+  height: calc(100vh - (56px + 60px));
 
   @media (min-width: 767px) {
     height: 520px;
@@ -34,12 +34,12 @@ export const GenericSectionContent = styled.article`
   justify-content: center;
   align-items: flex-start;
   height: 100%;
-  padding: 64px 32px;
+  padding: 56px 32px;
   box-sizing: border-box;
   
   @media (min-width: 768px) {
     width: ${({ contentSize }) => contentSize ? `${contentSize}px` : '650px'};
-    padding: 64px;
+    padding: 56px;
   }
 `;
 

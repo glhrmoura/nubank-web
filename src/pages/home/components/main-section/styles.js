@@ -10,15 +10,15 @@ export const MainSectionContainer = styled.section`
 
 export const MainSectionContent = styled.article`
   display: grid;
-  grid-template-columns: 64px repeat(14, 1fr) 64px;
-  grid-template-rows: 64px 134px auto 64px 64px;
+  grid-template-columns: 56px repeat(14, 1fr) 56px;
+  grid-template-rows: 56px 134px auto 56px 56px;
   max-width: 1328px;
   min-height: calc(100vh - 80px);
   
   @media (max-width: 767px) {
     width: 100%;
     grid-template-columns: 32px repeat(10, 1fr) 32px;
-    grid-template-rows: 64px repeat(2, 40vh) auto 64px;
+    grid-template-rows: 56px repeat(2, 40vh) auto 56px;
   }
 `;
 

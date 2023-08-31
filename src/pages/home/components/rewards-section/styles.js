@@ -38,11 +38,11 @@ export const TitleContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 64px 32px 64px 32px;
+  padding: 56px 32px 56px 32px;
   
   @media (min-width: 767px) {
     width: 60%;
-    padding: 64px 0px 64px 64px;
+    padding: 56px 0px 56px 56px;
   }
 `;
 
@@ -85,7 +85,7 @@ export const RewardsPicture = styled.picture`
   
   @media (min-width: 767px) {
     width: 40%;
-    padding: 64px;
+    padding: 56px;
   }
 `;
 

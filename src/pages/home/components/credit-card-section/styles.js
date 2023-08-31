@@ -22,14 +22,14 @@ export const CreditCardContent = styled.article`
 
 export const TitleContainer = styled.div`
   display: flex;
-  padding: 64px 32px;
+  padding: 56px 32px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 
   @media (min-width: 768px) {
     width: 60%;
-    padding: 64px 0px 64px 64px;
+    padding: 56px 0px 56px 56px;
   }
 `;
 

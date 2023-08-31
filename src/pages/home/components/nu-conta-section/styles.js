@@ -11,8 +11,8 @@ export const NuContaContainer = styled.section`
 
 export const NuContaContent = styled.div`
   display: grid;
-  grid-template-columns: 64px repeat(10, 1fr) 64px;
-  grid-template-rows: 64px 1fr 64px;
+  grid-template-columns: 56px repeat(10, 1fr) 56px;
+  grid-template-rows: 56px 1fr 56px;
   width: 100%;
   max-width: 1328px;
   justify-content: center;
@@ -20,7 +20,7 @@ export const NuContaContent = styled.div`
 
   @media (max-width: 767px) {
     grid-template-columns: 32px repeat(10, 1fr) 32px;
-    grid-template-rows: 64px auto 64px auto 64px;
+    grid-template-rows: 56px auto 56px auto 56px;
   }
 `;
 
