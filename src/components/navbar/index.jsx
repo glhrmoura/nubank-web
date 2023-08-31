@@ -27,7 +27,7 @@ const Navbar = () => {
         <Logo />
         <LinksContainer>
           <LinkList>
-            <LinkItem exact to="/nubank-web">Inícios</LinkItem>
+            <LinkItem exact to="/nubank-web">Início</LinkItem>
             <LinkItem to="/nubank-web/nu-Conta">NuConta</LinkItem>
             <LinkItem to="/nubank-web/card">Cartão de crédito</LinkItem>
             <LinkItem to="/nubank-web/rewards">Rewards</LinkItem>
