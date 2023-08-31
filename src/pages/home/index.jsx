@@ -1,10 +1,10 @@
 import React from 'react';
 
-import MainSection from './main-section';
-import NuContaSection from './nu-conta-section';
-import CreditCardSection from './credit-card-section';
-import RewardsSection from './rewards-section';
-import GenericSection from './generic-section';
+import MainSection from './components/main-section';
+import NuContaSection from './components/nu-conta-section';
+import CreditCardSection from './components/credit-card-section';
+import RewardsSection from './components/rewards-section';
+import GenericSection from './components/generic-section';
 
 export default () => (
   <div>

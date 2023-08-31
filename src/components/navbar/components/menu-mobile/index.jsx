@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
   NubankButton,
-} from '../../../styles';
+} from '../../../../theme/global-styles';
 
 import {
   MenuMobileContainer,

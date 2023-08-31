@@ -1,10 +1,12 @@
-import './assets/styles/index.scss';
 import React from 'react';
+
 import ReactDOM from 'react-dom';
 
-import Nubank from './views/index';
+import './assets/styles/index.scss';
+
+import NubankWeb from './routes';
 
 ReactDOM.render(
-  <Nubank />,
+  <NubankWeb />,
   document.getElementById('root'),
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { NavLink } from '../../styles';
+import { NavLink } from '../../theme/global-styles';
 
 export const NavbarContainer = styled.nav`
   position: fixed;
@@ -8,20 +8,16 @@ export const NavbarContainer = styled.nav`
   top: 0px;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 56px;
   padding-left: 32px;
   background-color: #FFF;
   width: calc(100% - 32px);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
-  z-index: 10;
+  z-index: 100;
 
   @media (max-width: 767px) {
     padding-right: 16px;
     width: calc(100% - 48px);
-  }
-
-  @media (min-width: 1024px) {
-    height: 80px;
   }
 `;
 
@@ -54,9 +50,10 @@ export const LinkList = styled.ul`
 export const LinkItem = props => {
   const ChildLink = styled(NavLink)`
     padding: 19px 12px;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     flex-shrink: 0;
+    color: #111111;
   `;
 
   return (
@@ -68,6 +65,7 @@ export const LinkItem = props => {
 
 export const RightLinks = styled.div`
   display: flex;
+  align-items: center;
   height: 100%;
   flex-shrink: 0;
 

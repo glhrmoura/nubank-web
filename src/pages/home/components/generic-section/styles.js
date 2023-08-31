@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import {
   BorderLink,
-} from '../../styles';
+} from '../../../../theme/global-styles';
 
 export const CustomBorderLink = styled(BorderLink)`
   color: #fff;
@@ -38,7 +38,7 @@ export const GenericSectionContent = styled.article`
   box-sizing: border-box;
   
   @media (min-width: 768px) {
-    width: ${({ contentSize }) => contentSize ? `${contentSize}px` : '650px'}
+    width: ${({ contentSize }) => contentSize ? `${contentSize}px` : '650px'};
     padding: 64px;
   }
 `;

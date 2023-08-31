@@ -1,5 +1,5 @@
 import React from 'react';
-import PictureSources from '../../components/picture-sources';
+import PictureSources from '../../../../components/picture-sources';
 
 import {
   RewardsContainer,
@@ -31,28 +31,28 @@ export default () => (
           sources={[
             {
               media: '(min-width: 1280px)',
-              src: require('../../../assets/images/rewards-home-card-3x.png'),
+              src: require('../../../../assets/images/rewards-home-card-3x.png'),
             },
             {
               media: '(min-width: 1024px)',
-              src: require('../../../assets/images/rewards-home-card-2x.png'),
+              src: require('../../../../assets/images/rewards-home-card-2x.png'),
             },
             {
               media: '(min-width: 768px)',
-              src: require('../../../assets/images/rewards-home-card-1x.png'),
+              src: require('../../../../assets/images/rewards-home-card-1x.png'),
             },
             {
               media: '(min-width: 480px)',
-              src: require('../../../assets/images/rewards-home-card-0.75x.png'),
+              src: require('../../../../assets/images/rewards-home-card-0.75x.png'),
             },
             {
               media: '(min-width: 0px)',
-              src: require('../../../assets/images/rewards-home-card-0.5x.png'),
+              src: require('../../../../assets/images/rewards-home-card-0.5x.png'),
             }
           ]}
         />
         <RewardsImage
-          src={require('../../../assets/images/rewards-home-card-1x.png')}
+          src={require('../../../../assets/images/rewards-home-card-1x.png')}
           alt="Celular com o aplicativo do Nubank aberto na seção de Rewards e o cartão roxo do Nubank"
         />
       </RewardsPicture>

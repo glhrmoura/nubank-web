@@ -52,8 +52,10 @@ export const NubankButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
-  padding: 19px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 6px;
+  padding: 12px 18px;
   text-decoration: none;
   color: #fff;
   border: none;
@@ -62,6 +64,7 @@ export const NubankButton = styled.button`
   cursor: pointer;
   outline: none;
   transition: background-color .2s;
+  border-radius: 6.25rem;
 
   &:hover {
     background-color: #B94CE2;
