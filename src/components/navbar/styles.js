@@ -12,8 +12,12 @@ export const NavbarContainer = styled.nav`
   padding-left: 32px;
   background-color: #FFF;
   width: calc(100% - 32px);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+  box-shadow: rgba(17, 17, 17, 0.1) 0px 1px 1px;
   z-index: 100;
+
+  svg {
+    flex-shrink: 0;
+  }
 
   @media (max-width: 767px) {
     padding-right: 16px;

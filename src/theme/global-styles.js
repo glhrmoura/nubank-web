@@ -66,18 +66,10 @@ export const NubankButton = styled.button`
   transition: background-color .2s;
   border-radius: 6.25rem;
 
-  &:hover {
-    background-color: #B94CE2;
-  }
-
   &.outline {
     color: #8A05BE;
     border: none;
     background-color: #fff;
-
-    &:hover {
-      color: #B94CE2;
-    }
   }
   
   &.block {

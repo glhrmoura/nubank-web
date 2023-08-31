@@ -54,7 +54,6 @@ export default () => {
           <Description>
             NuConta com rendimento acima da poupança e cartão de crédito sem anuidade.
           </Description>
-          <ButtonFixed>Quero ser Nubank</ButtonFixed>
         </TitleContainer>
         <PictureCard>
           <PictureSources
