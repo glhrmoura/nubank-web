@@ -8,7 +8,7 @@ export const MenuMobileContainer = styled.div`
   left: 0px;
   background-color: #fff;
   height: calc(100vh - 120px);
-  width: calc(100% - 64px);
+  width: calc(100% - 56px);
   z-index: 10;
   padding: 32px;
   transition: transform 0.3s ease-out;
