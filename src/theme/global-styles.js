@@ -76,3 +76,15 @@ export const NubankButton = styled.button`
     width: 100%;
   }
 `;
+
+export const FloatButton = styled.button`
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+`;
