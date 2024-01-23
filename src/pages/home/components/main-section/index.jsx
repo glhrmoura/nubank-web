@@ -11,7 +11,6 @@ import {
   ImageCard,
   TitleContainer,
   Description,
-  ButtonFixed,
 } from './styles.js';
 
 export default () => {

@@ -92,11 +92,3 @@ export const Description = styled.p`
   max-width: 300px;
 `;
 
-export const ButtonFixed = styled(NubankButton)`
-  @media (max-width: 767px) {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-  }
-`;
