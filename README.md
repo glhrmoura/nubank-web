@@ -1,7 +1,7 @@
 <p align="center">
   <img
     style="object: contain; height: 150px"
-    src="https://github.com/glhrmoura/nubank-web/raw/master/src/assets/images/logo.png"
+    src="https://miro.medium.com/v2/resize:fit:1200/1*1Kj6eAbjrHcWl1gKZD3Ojg.png"
   >
 </p>
 
@@ -11,7 +11,7 @@ Recriação visual do website do Nubank, construída utilizando React. Oferece a
 
 ### Demo
 
-[**Nubank - Web**](https://glhrmoura.github.io/nubank-web)
+[**Nubank - Web**](https://wonderful-cat-055079.netlify.app)
 
 ### Tools
 
