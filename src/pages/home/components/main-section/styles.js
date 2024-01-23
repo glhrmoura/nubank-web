@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import {
-  NubankButton,
-} from '../../../../theme/global-styles';
 
 export const MainSectionContainer = styled.section`
   display: flex;
