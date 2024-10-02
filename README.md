@@ -13,13 +13,6 @@ Recriação visual do website do Nubank, construída utilizando React. Oferece a
 
 [**Nubank - Web**](https://wonderful-cat-055079.netlify.app)
 
-### Tools
-
-- React
-- React Router
-- Sass
-- Styled Components
-
 ### License
 
 [MIT](https://github.com/glhrmoura/nubank-web/blob/master/LICENSE)
