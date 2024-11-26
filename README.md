@@ -11,7 +11,7 @@ Recriação visual do website do Nubank, construída utilizando React. Oferece a
 
 ### Demo
 
-[**Nubank - Web**](https://wonderful-cat-055079.netlify.app)
+[**Nubank - Web**](https://nubank-web-glhrmoura.netlify.app)
 
 ### License
 
