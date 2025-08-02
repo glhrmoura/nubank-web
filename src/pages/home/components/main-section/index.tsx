@@ -43,7 +43,6 @@ const MainSection: React.FC = () => {
             ]}
           />
           <ImageBackground
-            importance="high"
             srcSet="/src/assets/images/woman-jumping-1x.jpg"
             alt="Mulher jovem de macacão jeans pulando uma calçada expressando liberdade."
           />

@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
             Login
             <Enter />
           </NubankButton>
-          <NubankButton>Quero ser Nubank</NubankButton>
+          <NubankButton to="/">Quero ser Nubank</NubankButton>
         </RightLinks>
         <ToggleMenu onClick={() => setMenuVisible(!menuVisible)}>
           <Bar />

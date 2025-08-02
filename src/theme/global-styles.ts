@@ -48,7 +48,9 @@ export const NavLink = styled(RouterNavLink)`
   }
 `
 
-export const NubankButton = styled.button`
+
+
+export const NubankButton = styled(RouterLink)`
   display: flex;
   align-items: center;
   justify-content: center;

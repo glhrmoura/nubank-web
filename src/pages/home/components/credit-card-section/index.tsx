@@ -56,7 +56,6 @@ const CreditCardSection: React.FC = () => {
               ]}
             />
             <CreditCardImage
-              importance="high"
               srcSet="/src/assets/images/holding-card-vertical-1x.png"
               alt="Uma mão segurando o cartão roxo do Nubank"
             />

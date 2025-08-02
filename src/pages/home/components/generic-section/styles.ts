@@ -11,7 +11,19 @@ export const CustomBorderLink = styled(BorderLink)`
     linear-gradient(120deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
 `;
 
-export const GenericSectionContainer = styled.section`
+interface GenericSectionContainerProps {
+  backgroundUrl: {
+    desktop: string
+    mobile: string
+  }
+  backgroundPosition?: string
+}
+
+interface GenericSectionContentProps {
+  contentSize?: number
+}
+
+export const GenericSectionContainer = styled.section<GenericSectionContainerProps>`
   height: calc(100vh - 80px);
   background-image: ${props => `url(${props.backgroundUrl.mobile})`};
   background-size: cover;
@@ -28,7 +40,7 @@ export const GenericSectionContainer = styled.section`
   }
 `;
 
-export const GenericSectionContent = styled.article`
+export const GenericSectionContent = styled.article<GenericSectionContentProps>`
   display: flex;
   flex-direction: column;
   justify-content: center;
