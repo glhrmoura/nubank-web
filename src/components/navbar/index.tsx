@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import Bar from '@/components/icons/Bar'
 import Enter from '@/components/icons/Enter'
 import Logo from '@/components/icons/Logo'
+import MenuMobile from '@/components/navbar/components/menu-mobile'
 import { NubankButton } from '@/theme/global-styles'
 
-import MenuMobile from './components/menu-mobile'
 import {
   LinkItem,
   LinkList,
@@ -14,7 +14,6 @@ import {
   RightLinks,
   ToggleMenu,
 } from './styles'
-
 
 const Navbar: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState<boolean>(false)
