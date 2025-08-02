@@ -76,6 +76,7 @@ export const RightLinks = styled.div`
   align-items: center;
   height: 100%;
   flex-shrink: 0;
+  padding-right: 32px;
 
   a {
     text-decoration: none;
