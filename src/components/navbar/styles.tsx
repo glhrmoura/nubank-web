@@ -51,20 +51,20 @@ export const LinkList = styled.ul`
   margin: 0px;
 `
 
+const ChildLink = styled(NavLink)`
+  padding: 19px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  flex-shrink: 0;
+  color: #111111;
+`
+
 interface LinkItemProps {
   to: string
   children: React.ReactNode
 }
 
 export const LinkItem: React.FC<LinkItemProps> = (props) => {
-  const ChildLink = styled(NavLink)`
-    padding: 19px 12px;
-    font-size: 16px;
-    font-weight: 500;
-    flex-shrink: 0;
-    color: #111111;
-  `
-
   return (
     <li>
       <ChildLink {...props} />
