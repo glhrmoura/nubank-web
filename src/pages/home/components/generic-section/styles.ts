@@ -23,7 +23,9 @@ interface GenericSectionContentProps {
   contentSize?: number
 }
 
-export const GenericSectionContainer = styled.section<GenericSectionContainerProps>`
+export const GenericSectionContainer = styled.section.withConfig({
+  shouldForwardProp: (prop) => !['backgroundUrl', 'backgroundPosition'].includes(prop),
+})<GenericSectionContainerProps>`
   height: calc(100vh - 80px);
   background-image: ${props => `url(${props.backgroundUrl.mobile})`};
   background-size: cover;
@@ -40,7 +42,9 @@ export const GenericSectionContainer = styled.section<GenericSectionContainerPro
   }
 `;
 
-export const GenericSectionContent = styled.article<GenericSectionContentProps>`
+export const GenericSectionContent = styled.article.withConfig({
+  shouldForwardProp: (prop) => !['contentSize'].includes(prop),
+})<GenericSectionContentProps>`
   display: flex;
   flex-direction: column;
   justify-content: center;
