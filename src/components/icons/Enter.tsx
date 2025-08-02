@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const Enter = () => {
+const Enter: React.FC = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ const Enter = () => {
         ></path>
       </g>
     </svg>
-  );
-};
+  )
+}
 
-export default Enter;
+export default Enter 

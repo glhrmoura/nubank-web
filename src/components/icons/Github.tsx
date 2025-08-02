@@ -1,6 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-export const GithubIcon = ({ width = 28 }) => {
+interface GithubIconProps {
+  width?: number
+}
+
+export const GithubIcon: React.FC<GithubIconProps> = ({ width = 28 }) => {
   return (
     <div
       style={{
@@ -25,5 +29,5 @@ export const GithubIcon = ({ width = 28 }) => {
         </g>
       </svg>
     </div>
-  );
-};
+  )
+} 

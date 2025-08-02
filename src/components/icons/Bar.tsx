@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-const Bar = () => {
+const Bar: React.FC = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ const Bar = () => {
         ></path>
       </g>
     </svg>
-  );
-};
+  )
+}
 
-export default Bar;
+export default Bar 
