@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { NavLink } from '../../../../theme/global-styles';
+import React from 'react'
+import styled from 'styled-components'
+import { NavLink } from '../../../../theme/global-styles'
 
 export const MenuMobileContainer = styled.div`
   position: fixed;
@@ -26,29 +26,34 @@ export const MenuMobileContainer = styled.div`
   @media (min-width: 768px) {
     display: none;
   }
-`;
+`
 
 export const ButtonContainer = styled.div`
   margin-top: 32px;
-`;
+`
 
 export const LinkList = styled.ul`
   display: flex;
   flex-direction: column;
   padding: 0px;
   list-style: none;
-`;
+`
 
-export const LinkItem = props => {
+interface LinkItemProps {
+  to: string
+  children: React.ReactNode
+}
+
+export const LinkItem: React.FC<LinkItemProps> = (props) => {
   const ChildLink = styled(NavLink)`
     padding: 15px 0px;
     font-size: 24px;
     cursor: pointer;
-  `;
+  `
 
   return (
     <li>
       <ChildLink {...props} />
     </li>
-  );
-};
+  )
+} 

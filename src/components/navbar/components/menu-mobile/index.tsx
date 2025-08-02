@@ -1,20 +1,24 @@
-import React from 'react';
+import React from 'react'
 
 import {
   NubankButton,
-} from '../../../../theme/global-styles';
+} from '../../../../theme/global-styles'
 
 import {
   MenuMobileContainer,
   LinkList,
   LinkItem,
   ButtonContainer
-} from './styles';
+} from './styles'
 
-export default ({ visible }) => (
-  <MenuMobileContainer className={visible && 'menu-visible'}>
+interface MenuMobileProps {
+  visible: boolean
+}
+
+const MenuMobile: React.FC<MenuMobileProps> = ({ visible }) => (
+  <MenuMobileContainer className={visible ? 'menu-visible' : ''}>
     <LinkList>
-      <LinkItem exact to="/">Início</LinkItem>
+      <LinkItem to="/">Início</LinkItem>
       <LinkItem to="/1">NuConta</LinkItem>
       <LinkItem to="/2">Cartão de crédito</LinkItem>
       <LinkItem to="/3">Rewards</LinkItem>
@@ -28,4 +32,6 @@ export default ({ visible }) => (
       </NubankButton>
     </ButtonContainer>
   </MenuMobileContainer>
-);
+)
+
+export default MenuMobile 

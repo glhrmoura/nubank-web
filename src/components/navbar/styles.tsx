@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { NavLink } from '../../theme/global-styles';
+import React from 'react'
+import styled from 'styled-components'
+import { NavLink } from '../../theme/global-styles'
 
 export const NavbarContainer = styled.nav`
   position: fixed;
@@ -22,12 +22,12 @@ export const NavbarContainer = styled.nav`
   @media (max-width: 767px) {
     padding-right: 16px;
   }
-`;
+`
 
 export const NubankIcon = styled.img`
   width: 45px;
   height: 45px;
-`;
+`
 
 export const LinksContainer = styled.div`
   padding: 0px 16px;
@@ -41,30 +41,35 @@ export const LinksContainer = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
-`;
+`
 
 export const LinkList = styled.ul`
   display: flex;
   padding: 0px;
   list-style: none;
   margin: 0px;
-`;
+`
 
-export const LinkItem = props => {
+interface LinkItemProps {
+  to: string
+  children: React.ReactNode
+}
+
+export const LinkItem: React.FC<LinkItemProps> = (props) => {
   const ChildLink = styled(NavLink)`
     padding: 19px 12px;
     font-size: 16px;
     font-weight: 500;
     flex-shrink: 0;
     color: #111111;
-  `;
+  `
 
   return (
     <li>
       <ChildLink {...props} />
     </li>
-  );
-};
+  )
+}
 
 export const RightLinks = styled.div`
   display: flex;
@@ -86,7 +91,7 @@ export const RightLinks = styled.div`
     position: relative;
     height: 60%;
   }
-`;
+`
 
 export const ToggleMenu = styled.button`
   display: none;
@@ -107,4 +112,4 @@ export const ToggleMenu = styled.button`
     display: inline-block;
     justify-self: flex-end;
   }
-`;
+` 

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import MenuMobile from './components/menu-mobile';
+import React, { useState } from 'react'
+import MenuMobile from './components/menu-mobile'
 
 import {
   NubankButton,
-} from '../../theme/global-styles';
+} from '../../theme/global-styles'
 
 import {
   NavbarContainer,
@@ -12,14 +12,14 @@ import {
   LinkItem,
   ToggleMenu,
   RightLinks,
-} from './styles';
+} from './styles'
 
 import Logo from '../icons/Logo'
 import Bar from '../icons/Bar'
 import Enter from '../icons/Enter'
 
-const Navbar = () => {
-  const [menuVisible, setMenuVisible] = useState(false);
+const Navbar: React.FC = () => {
+  const [menuVisible, setMenuVisible] = useState<boolean>(false)
 
   return (
    <>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Logo />
         <LinksContainer>
           <LinkList>
-            <LinkItem exact to="/">Início</LinkItem>
+            <LinkItem to="/">Início</LinkItem>
             <LinkItem to="/nu-Conta">NuConta</LinkItem>
             <LinkItem to="/card">Cartão de crédito</LinkItem>
             <LinkItem to="/rewards">Rewards</LinkItem>
@@ -50,6 +50,6 @@ const Navbar = () => {
       <MenuMobile visible={menuVisible} />
    </>
   )
-};
+}
 
-export default Navbar;
+export default Navbar 
