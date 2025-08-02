@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Navbar from '../components/navbar'
-import { GithubIcon } from '../components/icons/Github'
-import Home from '../pages/home'
+import Navbar from '@/components/navbar'
+import { GithubIcon } from '@/components/icons/Github'
+import Home from '@/pages/home'
 
 import {
   FloatButton,
   NubankInnerLayout,
-} from '../theme/global-styles'
+} from '@/theme/global-styles'
 
 const Router: React.FC = () => {
   const redirect = (): void => {

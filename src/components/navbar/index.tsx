@@ -3,7 +3,7 @@ import MenuMobile from './components/menu-mobile'
 
 import {
   NubankButton,
-} from '../../theme/global-styles'
+} from '@/theme/global-styles'
 
 import {
   NavbarContainer,
@@ -14,9 +14,9 @@ import {
   RightLinks,
 } from './styles'
 
-import Logo from '../icons/Logo'
-import Bar from '../icons/Bar'
-import Enter from '../icons/Enter'
+import Logo from '@/components/icons/Logo'
+import Bar from '@/components/icons/Bar'
+import Enter from '@/components/icons/Enter'
 
 const Navbar: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState<boolean>(false)

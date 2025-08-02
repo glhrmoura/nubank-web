@@ -1,10 +1,10 @@
 import React from 'react'
 
-import MainSection from './components/main-section'
-import NuContaSection from './components/nu-conta-section'
-import CreditCardSection from './components/credit-card-section'
-import RewardsSection from './components/rewards-section'
-import GenericSection from './components/generic-section'
+import MainSection from '@/pages/home/components/main-section'
+import NuContaSection from '@/pages/home/components/nu-conta-section'
+import CreditCardSection from '@/pages/home/components/credit-card-section'
+import RewardsSection from '@/pages/home/components/rewards-section'
+import GenericSection from '@/pages/home/components/generic-section'
 
 const Home: React.FC = () => (
   <div>
