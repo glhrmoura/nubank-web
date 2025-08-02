@@ -1,13 +1,27 @@
-import React from 'react';
+import React from 'react'
 
 import {
   Title,
   CustomBorderLink,
   GenericSectionContainer,
   GenericSectionContent,
-} from './styles';
+} from './styles'
 
-export default ({
+interface BackgroundUrl {
+  desktop: string
+  mobile: string
+}
+
+interface GenericSectionProps {
+  title: string | string[]
+  link: string
+  linkLabel: string
+  contentSize?: number
+  backgroundUrl: BackgroundUrl
+  backgroundPosition?: string
+}
+
+const GenericSection: React.FC<GenericSectionProps> = ({
   title,
   link,
   linkLabel,
@@ -32,4 +46,6 @@ export default ({
       </CustomBorderLink>
     </GenericSectionContent>
   </GenericSectionContainer>
-);
+)
+
+export default GenericSection 

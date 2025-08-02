@@ -1,9 +1,9 @@
-import React from 'react';
-import PictureSources from '../../../../components/picture-sources';
+import React from 'react'
+import PictureSources from '../../../../components/picture-sources'
 
 import {
   BorderLink,
-} from '../../../../theme/global-styles';
+} from '../../../../theme/global-styles'
 
 import {
   NuContaContainer,
@@ -12,9 +12,9 @@ import {
   NuContaImage,
   TitleContainer,
   Title,
-} from './styles';
+} from './styles'
 
-export default () => (
+const NuContaSection: React.FC = () => (
   <NuContaContainer>
     <NuContaContent>
       <TitleContainer>
@@ -33,31 +33,33 @@ export default () => (
           sources={[
             {
               media: '(min-width: 1280px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-3x.png'),
+              src: '/src/assets/images/nuconta-inclined-device-3x.png',
             },
             {
               media: '(min-width: 1024px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-2x.png'),
+              src: '/src/assets/images/nuconta-inclined-device-2x.png',
             },
             {
               media: '(min-width: 768px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-1x.png'),
+              src: '/src/assets/images/nuconta-inclined-device-1x.png',
             },
             {
               media: '(min-width: 480px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-0.75x.png'),
+              src: '/src/assets/images/nuconta-inclined-device-0.75x.png',
             },
             {
               media: '(min-width: 0px)',
-              src: require('../../../../assets/images/nuconta-inclined-device-0.5x.png'),
+              src: '/src/assets/images/nuconta-inclined-device-0.5x.png',
             }
           ]}
         />
         <NuContaImage
-          src={require('../../../../assets/images/nuconta-inclined-device-1x.png')}
+          src="/src/assets/images/nuconta-inclined-device-1x.png"
           alt="Celular inclinado com o aplicativo do Nubank aberto na seção da NuConta"
         />
       </NuContaPicture>
     </NuContaContent>
   </NuContaContainer>
-);
+)
+
+export default NuContaSection 

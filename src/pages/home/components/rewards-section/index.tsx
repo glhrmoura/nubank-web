@@ -1,5 +1,5 @@
-import React from 'react';
-import PictureSources from '../../../../components/picture-sources';
+import React from 'react'
+import PictureSources from '../../../../components/picture-sources'
 
 import {
   RewardsContainer,
@@ -10,9 +10,9 @@ import {
   Description,
   RewardsBorderLink,
   RewardsPicture,
-} from './styles';
+} from './styles'
 
-export default () => (
+const RewardsSection: React.FC = () => (
   <RewardsContainer>
     <RewardsContent>
       <TitleContainer>
@@ -31,31 +31,33 @@ export default () => (
           sources={[
             {
               media: '(min-width: 1280px)',
-              src: require('../../../../assets/images/rewards-home-card-3x.png'),
+              src: '/src/assets/images/rewards-home-card-3x.png',
             },
             {
               media: '(min-width: 1024px)',
-              src: require('../../../../assets/images/rewards-home-card-2x.png'),
+              src: '/src/assets/images/rewards-home-card-2x.png',
             },
             {
               media: '(min-width: 768px)',
-              src: require('../../../../assets/images/rewards-home-card-1x.png'),
+              src: '/src/assets/images/rewards-home-card-1x.png',
             },
             {
               media: '(min-width: 480px)',
-              src: require('../../../../assets/images/rewards-home-card-0.75x.png'),
+              src: '/src/assets/images/rewards-home-card-0.75x.png',
             },
             {
               media: '(min-width: 0px)',
-              src: require('../../../../assets/images/rewards-home-card-0.5x.png'),
+              src: '/src/assets/images/rewards-home-card-0.5x.png',
             }
           ]}
         />
         <RewardsImage
-          src={require('../../../../assets/images/rewards-home-card-1x.png')}
+          src="/src/assets/images/rewards-home-card-1x.png"
           alt="Celular com o aplicativo do Nubank aberto na seção de Rewards e o cartão roxo do Nubank"
         />
       </RewardsPicture>
     </RewardsContent>
   </RewardsContainer>
-);
+)
+
+export default RewardsSection 
