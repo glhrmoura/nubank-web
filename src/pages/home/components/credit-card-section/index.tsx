@@ -33,30 +33,30 @@ const CreditCardSection: React.FC = () => {
           <CreditCardPicture>
             <PictureSources
               sources={[
-                {
-                  media: '(min-width: 1280px)',
-                  src: '/src/assets/images/holding-card-vertical-3x.png',
-                },
-                {
-                  media: '(min-width: 1024px)',
-                  src: '/src/assets/images/holding-card-vertical-2x.png',
-                },
-                {
-                  media: '(min-width: 768px)',
-                  src: '/src/assets/images/holding-card-vertical-1x.png',
-                },
-                {
-                  media: '(min-width: 480px)',
-                  src: '/src/assets/images/holding-card-vertical-0.75x.png',
-                },
-                {
-                  media: '(min-width: 0px)',
-                  src: '/src/assets/images/holding-card-vertical-0.5x.png',
-                }
+                              {
+                media: '(min-width: 1280px)',
+                src: '/images/holding-card-vertical-3x.png',
+              },
+              {
+                media: '(min-width: 1024px)',
+                src: '/images/holding-card-vertical-2x.png',
+              },
+              {
+                media: '(min-width: 768px)',
+                src: '/images/holding-card-vertical-1x.png',
+              },
+              {
+                media: '(min-width: 480px)',
+                src: '/images/holding-card-vertical-0.75x.png',
+              },
+              {
+                media: '(min-width: 0px)',
+                src: '/images/holding-card-vertical-0.5x.png',
+              }
               ]}
             />
             <CreditCardImage
-              srcSet="/src/assets/images/holding-card-vertical-1x.png"
+              srcSet="/images/holding-card-vertical-1x.png"
               alt="Uma mão segurando o cartão roxo do Nubank"
             />
         </CreditCardPicture>

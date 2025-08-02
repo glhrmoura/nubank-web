@@ -31,30 +31,30 @@ const NuContaSection: React.FC = () => (
       <NuContaPicture>
         <PictureSources
           sources={[
-            {
-              media: '(min-width: 1280px)',
-              src: '/src/assets/images/nuconta-inclined-device-3x.png',
-            },
-            {
-              media: '(min-width: 1024px)',
-              src: '/src/assets/images/nuconta-inclined-device-2x.png',
-            },
-            {
-              media: '(min-width: 768px)',
-              src: '/src/assets/images/nuconta-inclined-device-1x.png',
-            },
-            {
-              media: '(min-width: 480px)',
-              src: '/src/assets/images/nuconta-inclined-device-0.75x.png',
-            },
-            {
-              media: '(min-width: 0px)',
-              src: '/src/assets/images/nuconta-inclined-device-0.5x.png',
-            }
+                          {
+                media: '(min-width: 1280px)',
+                src: '/images/nuconta-inclined-device-3x.png',
+              },
+              {
+                media: '(min-width: 1024px)',
+                src: '/images/nuconta-inclined-device-2x.png',
+              },
+              {
+                media: '(min-width: 768px)',
+                src: '/images/nuconta-inclined-device-1x.png',
+              },
+              {
+                media: '(min-width: 480px)',
+                src: '/images/nuconta-inclined-device-0.75x.png',
+              },
+              {
+                media: '(min-width: 0px)',
+                src: '/images/nuconta-inclined-device-0.5x.png',
+              }
           ]}
         />
         <NuContaImage
-          src="/src/assets/images/nuconta-inclined-device-1x.png"
+          src="/images/nuconta-inclined-device-1x.png"
           alt="Celular inclinado com o aplicativo do Nubank aberto na seção da NuConta"
         />
       </NuContaPicture>

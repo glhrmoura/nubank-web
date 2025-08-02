@@ -17,8 +17,8 @@ const Home: React.FC = () => (
       linkLabel="É nisso que acreditamos."
       title="Reinventando a relação das pessoas com o dinheiro"
       backgroundUrl={{
-        desktop: '/src/assets/images/challenge-system-large.jpg',
-        mobile: '/src/assets/images/challenge-system-large.jpg',
+        desktop: '/images/challenge-system-large.jpg',
+        mobile: '/images/challenge-system-large.jpg',
       }}
     />
     <GenericSection
@@ -27,8 +27,8 @@ const Home: React.FC = () => (
       contentSize={650}
       title={['NuCommunity', 'A comunidade oficial do Nubank.']}
       backgroundUrl={{
-        desktop: '/src/assets/images/nucommunity-3x.jpg',
-        mobile: '/src/assets/images/nucommunity-0.5x.jpg',
+        desktop: '/images/nucommunity-3x.jpg',
+        mobile: '/images/nucommunity-0.5x.jpg',
       }}
     />
     <GenericSection
@@ -38,8 +38,8 @@ const Home: React.FC = () => (
       contentSize={500}
       backgroundPosition="center top"
       backgroundUrl={{
-        desktop: '/src/assets/images/holding-device-smile-3x.jpg',
-        mobile: '/src/assets/images/holding-device-smile-0.5x.jpg',
+        desktop: '/images/holding-device-smile-3x.jpg',
+        mobile: '/images/holding-device-smile-0.5x.jpg',
       }}
     />
   </div>
