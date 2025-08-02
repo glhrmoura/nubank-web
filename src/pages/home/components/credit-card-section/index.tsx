@@ -8,11 +8,11 @@ import {
 import {
   CreditCardContainer,
   CreditCardContent,
-  TitleContainer,
-  Title,
-  Description,
-  CreditCardPicture,
   CreditCardImage,
+  CreditCardPicture,
+  Description,
+  Title,
+  TitleContainer,
 } from './styles'
 
 const CreditCardSection: React.FC = () => {

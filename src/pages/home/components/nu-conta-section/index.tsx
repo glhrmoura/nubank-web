@@ -8,10 +8,10 @@ import {
 import {
   NuContaContainer,
   NuContaContent,
-  NuContaPicture,
   NuContaImage,
-  TitleContainer,
+  NuContaPicture,
   Title,
+  TitleContainer,
 } from './styles'
 
 const NuContaSection: React.FC = () => (

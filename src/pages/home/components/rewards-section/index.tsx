@@ -3,14 +3,14 @@ import React from 'react'
 import PictureSources from '@/components/picture-sources'
 
 import {
-  RewardsContainer,
-  RewardsContent,
-  TitleContainer,
-  Title,
-  RewardsImage,
   Description,
   RewardsBorderLink,
+  RewardsContainer,
+  RewardsContent,
+  RewardsImage,
   RewardsPicture,
+  Title,
+  TitleContainer,
 } from './styles'
 
 const RewardsSection: React.FC = () => (

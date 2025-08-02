@@ -5,11 +5,10 @@ import {
 } from '@/theme/global-styles'
 
 import {
-  MenuMobileContainer,
-  LinkList,
+  ButtonContainer,
   LinkItem,
-  ButtonContainer
-} from './styles'
+  LinkList,
+  MenuMobileContainer} from './styles'
 
 interface MenuMobileProps {
   visible: boolean

@@ -3,15 +3,15 @@ import React from 'react'
 import PictureSources from '@/components/picture-sources'
 
 import {
-  MainSectionContainer,
-  PictureBackground,
-  MainSectionContent,
-  ImageBackground,
-  Title,
-  PictureCard,
-  ImageCard,
-  TitleContainer,
   Description,
+  ImageBackground,
+  ImageCard,
+  MainSectionContainer,
+  MainSectionContent,
+  PictureBackground,
+  PictureCard,
+  Title,
+  TitleContainer,
 } from './styles'
 
 const MainSection: React.FC = () => {

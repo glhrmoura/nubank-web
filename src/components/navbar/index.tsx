@@ -3,18 +3,16 @@ import React, { useState } from 'react'
 import Bar from '@/components/icons/Bar'
 import Enter from '@/components/icons/Enter'
 import Logo from '@/components/icons/Logo'
-import {
-  NubankButton,
-} from '@/theme/global-styles'
+import { NubankButton } from '@/theme/global-styles'
 
 import MenuMobile from './components/menu-mobile'
 import {
-  NavbarContainer,
-  LinksContainer,
-  LinkList,
   LinkItem,
-  ToggleMenu,
+  LinkList,
+  LinksContainer,
+  NavbarContainer,
   RightLinks,
+  ToggleMenu,
 } from './styles'
 
 

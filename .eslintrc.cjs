@@ -16,7 +16,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react-refresh', 'import', '@typescript-eslint'],
+  plugins: ['react-refresh', 'import', '@typescript-eslint', 'simple-import-sort'],
   settings: {
     'import/resolver': {
       typescript: {
@@ -30,24 +30,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'import/order': [
-      'error',
-      {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-        ],
-        'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
-      },
-    ],
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-duplicates': 'error',
     'import/no-unresolved': 'error',
     'import/no-unused-modules': 'warn',
     'import/no-named-as-default': 'off',

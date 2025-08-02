@@ -1,10 +1,10 @@
 import React from 'react'
 
 import {
-  Title,
   CustomBorderLink,
   GenericSectionContainer,
   GenericSectionContent,
+  Title,
 } from './styles'
 
 interface BackgroundUrl {
