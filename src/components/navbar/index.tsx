@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
-import MenuMobile from './components/menu-mobile'
 
+import Bar from '@/components/icons/Bar'
+import Enter from '@/components/icons/Enter'
+import Logo from '@/components/icons/Logo'
 import {
   NubankButton,
 } from '@/theme/global-styles'
 
+import MenuMobile from './components/menu-mobile'
 import {
   NavbarContainer,
   LinksContainer,
@@ -14,9 +17,6 @@ import {
   RightLinks,
 } from './styles'
 
-import Logo from '@/components/icons/Logo'
-import Bar from '@/components/icons/Bar'
-import Enter from '@/components/icons/Enter'
 
 const Navbar: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState<boolean>(false)

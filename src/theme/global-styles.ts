@@ -1,5 +1,5 @@
-import styled from 'styled-components'
 import { Link as RouterLink, NavLink as RouterNavLink } from 'react-router-dom'
+import styled from 'styled-components'
 
 export const NubankInnerLayout = styled.main`
   margin-top: 56px;

@@ -1,10 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Navbar from '@/components/navbar'
 import { GithubIcon } from '@/components/icons/Github'
+import Navbar from '@/components/navbar'
 import Home from '@/pages/home'
-
 import {
   FloatButton,
   NubankInnerLayout,
