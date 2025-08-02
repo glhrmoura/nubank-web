@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link as RouterLink, NavLink as RouterNavLink } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link as RouterLink, NavLink as RouterNavLink } from 'react-router-dom'
 
 export const NubankInnerLayout = styled.main`
   margin-top: 56px;
@@ -7,7 +7,7 @@ export const NubankInnerLayout = styled.main`
   @media (min-width: 1024px) {
     margin-top: 80px;
   }
-`;
+`
 
 export const BorderLink = styled(RouterLink)`
   position: relative;
@@ -26,7 +26,7 @@ export const BorderLink = styled(RouterLink)`
   &:hover {
     background-size: 100% 1px, 100% 1px;
   }
-`;
+`
 
 export const NavLink = styled(RouterNavLink)`
   display: inline-block;
@@ -46,7 +46,7 @@ export const NavLink = styled(RouterNavLink)`
     outline: none;
     color: #9216C2;
   }
-`;
+`
 
 export const NubankButton = styled.button`
   display: flex;
@@ -75,7 +75,7 @@ export const NubankButton = styled.button`
   &.block {
     width: 100%;
   }
-`;
+`
 
 export const FloatButton = styled.button`
   position: fixed;
@@ -87,4 +87,4 @@ export const FloatButton = styled.button`
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
-`;
+` 
